@@ -54,3 +54,26 @@ a {
   border-radius: 1em;
   width: 50%;
 }
+
+#verm-desc {
+  width: 45%;
+  display: inline-block;
+margin-right: 2.5em;
+}
+
+#worm-bin {
+  width: 50%;
+  border-radius: 1em;
+}
+
+#bokashi-desc {
+  width: 50%;
+  display: inline-block;
+  margin-right: 2.5em;
+}
+
+#bokashi-bin {
+  width: auto;
+  height: 400px;
+  border-radius: 1em;
+}
