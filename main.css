@@ -7,9 +7,16 @@ body {
   margin: 2.5em;
 }
 
-
 h1, h2, h3, strong {
   color: #447604;
+}
+
+footer {
+  color: #f4e409;
+  background-color: #447604;
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  margin-top: 3em;
 }
 
 a {
@@ -27,4 +34,23 @@ a {
   width: 300px;
   display: inline-block;
   border-radius: 1em;
+}
+
+.material-photos {
+  width: 400px;
+  display: inline-flex;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+#composting-phases {
+  width: 45%;
+  display: inline-block;
+  margin-right: 2.5em;
+}
+
+#household-compost {
+  display: inline-block;
+  border-radius: 1em;
+  width: 50%;
 }
