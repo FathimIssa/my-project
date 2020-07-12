@@ -1,14 +1,11 @@
 body {
-  color: #f17105;
+  background-color: #cfffb3;
+  color: #447604;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   line-height: 2;
   text-align: justify;
   margin: 2.5em;
-}
-
-h1, h2, h3, strong {
-  color: #447604;
 }
 
 footer {
@@ -24,56 +21,43 @@ a {
   color: #447604;
 }
 
-#approaches {
-  width: 700px;
-  display: inline-block;
-  margin: 1em;
-}
-
 #backyardcomposter {
   width: 300px;
-  display: inline-block;
   border-radius: 1em;
+  float: right;
+  display: none;
 }
 
 .material-photos {
-  width: 400px;
-  display: inline-flex;
+  width: 350px;
   border-radius: 1em;
-  margin: 1em;
+  float: right;
+  margin-left: 1em;
 }
 
-#composting-phases {
-  width: 45%;
-  display: inline-block;
-  margin-right: 2.5em;
-}
 
 #household-compost {
-  display: inline-block;
   border-radius: 1em;
-  width: 50%;
-}
-
-#verm-desc {
   width: 45%;
-  display: inline-block;
-margin-right: 2.5em;
+  float: right;
+  margin-left: 2em;
 }
 
 #worm-bin {
-  width: 50%;
+  width: 45%;
   border-radius: 1em;
-}
-
-#bokashi-desc {
-  width: 50%;
-  display: inline-block;
-  margin-right: 2.5em;
+  float: right;
+  margin-left: 2em;
 }
 
 #bokashi-bin {
-  width: auto;
-  height: 400px;
+  float: right;
+  width: 50%;
+  height: auto;
   border-radius: 1em;
+  margin-left: 2em;
+}
+
+section {
+clear: right;
 }
