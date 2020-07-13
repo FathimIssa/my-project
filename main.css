@@ -86,3 +86,35 @@ a {
 section {
 clear: right;
 }
+
+@media only screen and (min-width: 320px) {
+  body {
+    font-size: 1em;
+    text-align: justify;
+  }
+
+  header {
+    border-radius: 1em;
+  }
+
+  #navheader {
+    text-align: center;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  ul {
+    margin-left: -20px;
+  }
+
+  #household-compost {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
