@@ -19,25 +19,33 @@ header {
   width: 100%;
   color: #f4e409;
   position: fixed;
+  top: 0;
+}
+
+#navheader {
+  margin: 25px;
+  margin-left: 50px;
 }
 
 main {
   padding: 2em;
-  padding-top: 150px;
-  margin-bottom: 150px;
+  padding-top: 125px;
+  margin-bottom: 50px;
 }
 
 nav ul {
+  font-weight: bold;
+  position: absolute;
+  margin: auto;
+  right: 0;
+  top: 2em;
   color: #f4e409;
   width: 700px;
-  position: absolute;
-  top: 30px;
-  right: 30px;
   list-style-type: none;
   display: inline-flex;
-flex-direction: row;
-justify-content: space-around;
-margin-right: 30px;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 30px;
 }
 
 nav a {
