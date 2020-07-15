@@ -4,7 +4,6 @@ body {
   font-size: 20px;
   line-height: 2;
   text-align: justify;
-  margin: 2.5em;
 }
 
 footer {
@@ -19,6 +18,13 @@ header {
   background-color: #447604;
   width: 100%;
   color: #f4e409;
+  position: fixed;
+}
+
+main {
+  padding: 2em;
+  padding-top: 150px;
+  margin-bottom: 150px;
 }
 
 nav ul {
@@ -99,6 +105,7 @@ clear: right;
 
   #navheader {
     text-align: center;
+    margin-top: 0px;
   }
 
   #navbar {
